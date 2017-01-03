@@ -1,0 +1,15 @@
+/*Layout ====================================== */
+body {
+  padding-top: 70px;
+}
+
+.container {
+  max-resolution: 1000px;
+}
+
+/*Jumbotron ======================================*/
+
+.jumbotron {
+  text-align: center;
+  background-color: yellow;
+}
