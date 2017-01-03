@@ -4,6 +4,10 @@
     <title>Ribbit - A Treehouse Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
@@ -11,23 +15,38 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <header class="page-header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About Ribbit</a></li>
-          <li><a href="#">Treehouse</a></li>
-        </ul>
-        <h3>Ribbit</h3>
-      </header>
 
+  <!-- Navbar -->
+     <div class="navbar navbar-inverse navbar-fixed-top">
+       <div class="container">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+
+        <a class="navbar-brand text-muted" href="#">Ribbit Text muted</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Ribbit</a></li>
+            <li><a href="#">Treehouse</a></li>
+          </ul>
+
+        </div>
+       </div>
+     </div>
+
+  <!-- End navbar -->
+
+    <div class="container ">
       <div class="jumbotron">
         <h1>Self-destructing message app</h1>
         <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today! We'll teach you how to build both apps from scratch!</p>
 
         <p class="btn-group">
-          <a class="btn btn-success btn-lg" href="#">Download the app</a>
-          <a class="btn btn-default btn-lg" href="#" >Text me the link</a>
+          <a class="btn-lg btn btn-success " href="#">Download the app</a>
+          <a class="btn btn-default btn-lg hidden-xs" href="#" >Text me the link</a>
         </p>
 
       </div>
@@ -54,17 +73,17 @@
       <div class="row">
 
 <!-- aligned to the left  -->
-        <div class="col-sm-6">
+
+<!-- hiding a class will make it not visble at that small or size of screen.  -->
+        <div class="col-sm-6 hidden-xs">
 
           <h3>Learn how to Make this app</h3>
           <p>We will build on the concepts learned in previous ios projects to create an app that will allow users to send photo or video messages to other users that will be deleted once viewed.</p>
 
           <div class="row">
-
             <div class="col-sm-6 col-md-push-6">
               <img class="img-responsive" src="img/thumb.jpg">
             </div>
-
             <div class="col-sm-6 col-md-pull-6">
               <p>Get access to these courses for only $24 a month!</p>
               <a href="#">Visit Treehouse Now &raquo;</a>
@@ -87,7 +106,11 @@
       <div>
         <p>&copy; 2013 Ribbit - By Treehouse Island, Inc.</p>
       </div>
-
     </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+       <script src="http://code.jquery.com/jquery.js"></script>
+       <!-- Include all compiled plugins (below), or include individual files as needed -->
+       <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>

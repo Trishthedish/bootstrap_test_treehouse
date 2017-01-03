@@ -1,0 +1,13 @@
+/*Layout ====================================== */
+body {
+  padding-top: 70px;
+}
+
+
+
+/*Jumbotron ======================================*/
+
+.jumbotron {
+  text-align: center;
+  background-color: yellow;
+}
