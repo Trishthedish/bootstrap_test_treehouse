@@ -3,7 +3,9 @@ body {
   padding-top: 70px;
 }
 
-
+.container {
+  max-resolution: 1000px;
+}
 
 /*Jumbotron ======================================*/
 
