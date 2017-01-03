@@ -39,3 +39,27 @@ I noticed that documentation page used the following notation to distinguish via
   <a href="#" class="btn btn-sm btn-default"></a>
 </p>
 ```
+
+4.   
+we'll need to toggle the navbar menu in mobile devices. Add the data attribute that calls the collapse JavaScript plugin function to the button element.
+**class="navbar-toggle"*** && **data-toggle="collapse"**
+
+the data attribute that toggles the nav once the menu icon is clicked.
+
+**data-target=".navbar-collapse"**
+
+```html
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+```
+
+5.
+> "And instead of an href attribute, it's always better to give it a data-target attribute with a hash as its value... What this data attribute does... k eeps the URLs
+intact, since we're not linking to any pages with this link. We're just using it as a trigger. So now that we have our dropdown defined in our data attributes." -Guil Hernandez
+
+Better to use data-target instead of href.

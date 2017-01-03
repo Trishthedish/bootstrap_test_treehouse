@@ -13,3 +13,12 @@ body {
   text-align: center;
   background-color: yellow;
 }
+
+/* Glyphicons ======================================*/
+
+.glyphicon {
+  font-size: 3em;
+  display: block;
+  text-align: center;
+  color: #3a878D;
+}
