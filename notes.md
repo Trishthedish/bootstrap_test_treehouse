@@ -63,3 +63,5 @@ the data attribute that toggles the nav once the menu icon is clicked.
 intact, since we're not linking to any pages with this link. We're just using it as a trigger. So now that we have our dropdown defined in our data attributes." -Guil Hernandez
 
 Better to use data-target instead of href.
+
+6. http://classic.scottr.org/presentations/git-in-5-minutes/ great git reminders.
