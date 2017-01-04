@@ -1,6 +1,6 @@
 /*Layout ====================================== */
 body {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .container {
@@ -22,3 +22,26 @@ body {
   text-align: center;
   color: #3a878D;
 }
+
+/* Carousel ======================================*/
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #222;
+}
+.carousel-indicators li {
+  border-color: #222;
+}
+
+/*attempted to fix the changing of sizes due to content in b/n slides.*/
+/*
+.slide {
+  min-height: 300px;
+}
+
+.item {
+  height: 233px;
+}*/
